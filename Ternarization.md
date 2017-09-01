@@ -46,7 +46,7 @@ Here is another example, taken from the JTL code development. The following code
 
 ```java
 if (tail.isEmpty())
-        return s;
+    return s;
 else
     return s + ":" + tail.toString();
 ```
